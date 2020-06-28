@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Linux version 5.2.0">
+<meta charset="utf-8">
+<meta name="viewport" content=
+"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Visualizing San Diego's COVID19 Data in Browser using
+Python</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/reveal.css">
+<link rel="stylesheet" href="css/theme/black.css" id="theme">
+<!-- Theme used for syntax highlighting of code -->
+<link rel="stylesheet" href="lib/css/monokai.css">
+<!-- Printing and PDF exports -->
+
+<script>
+                        var link = document.createElement( 'link' );
+                        link.rel = 'stylesheet';
+                        link.type = 'text/css';
+                        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+                        document.getElementsByTagName( 'head' )[0].appendChild( link );
+</script>
+<style>
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<section>
+<h2 style="text-align: right;">Visualizing SanDiego's</h2>
+<h2 style="text-align: right;">COVID19 Data</h2>
+<h2 style="text-align: right;">in a Browser</h2>
+<h2 style="text-align: right;">using Python</h2>
+<div style="text-align: right; margin-top:3em;">
+    <p> Bala Juluri </p>
+    <p>SanDiego Python Meetup. May 2020 </p>    
+</div>
+</section>
+
+<!--
+<section>
+<h2><b>Bala Juluri</b></h2>
+<a href="juluribk.com/" style="height: 10px;">juluribk.com</a>
+<div style="text-align: right; margin-top:2em;">
+<ul>
+<li><strike>Epidemiologist/ Public Health Officier</strike></li>
+<li><strike>Visualization/Data Expert</strike></li>
+<li>Research Scientist in Solar Energy Domain</li>
+<li>I love building fun stuff with Python</li>
+<li>Thankful to Python community for empowering me</li>
+</ul>
+</div>
+</section>
+-->
+
+<section>
+<h2>Motivation</h2>
+<div style="margin-top:-0.5em">
+<p style="font-size:25px"> Cases by ZipCodes</p>
+<img src="https://raw.githubusercontent.com/plasmon360/COVID-19-in-SanDiego/gh-pages/revealjs_presentation/lib/images/county_pdf_sample.png" style="width:500px;height=600px margin-top:-1em">
+<ul>
+    </div>
+<li style="font-size:30px">SanDiego County provides "Cases by ZipCode" as PDF's tables</li>
+<li style="font-size:30px">Geo-spatial pattern? -> Map would be interesting</li>
+<li style="font-size:30px">Cases changing with time? -> Interactive Visualization in browser.</li>
+</ul>
+</section>
+
+<section>
+    <h3>Visualization Pipeline</h3>
+<div class="mxgraph" style="max-width:100%;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;lightbox&quot;:false,&quot;nav&quot;:true,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2020-05-26T21:05:53.713Z\&quot; aent=\&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36\&quot; etag=\&quot;p-8lzS6cWODk-2QOKmy5\&quot; agent=\&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36\&quot; version=\&quot;13.1.3\&quot; type=\&quot;google\&quot;&gt;&lt;diagram id=\&quot;C5RBs43oDa-KdzZeNtuy\&quot; name=\&quot;Page-1\&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
+<script type="text/javascript" src="https://app.diagrams.net/js/viewer.min.js"></script>
+</section>
+
+<section>
+<div class="fragment">
+<h2 style="text-align: left; font-weight: bold;">Visualization Link</h2>
+<p style="text-align:left; font-weight:bold;"><a href=
+"https://tinyurl.com/sd-covid-vis" target="_blank">https://tinyurl.com/sd-covid-vis</a></p>
+</div>
+<div style="text-align: right; margin-top:4em;">
+</div>
+<div class="fragment">
+<h2 style="text-align:right; font-weight: bold;">Jupyter Notebook Link</h2>
+<p style="text-align:right; font-weight:bold;"><a href=
+"https://tinyurl.com/sd-covid-nb" target="_blank">https://tinyurl.com/sd-covid-nb</a></p>
+</div>
+</section>
+
+
+<section>
+<h2>Bokeh</h2>
+<ul>
+<li class="fragment fade-in"> Python Visualization Library for Web Browsers</li>
+<li class="fragment fade-in">Plots, Dashboards and Data
+applications</li>
+<li class="fragment fade-in">Python Code -&gt; JSON -&gt; BOKEHJS
+client library</li>
+<li class="fragment fade-in">Interactivity (Pan, Zoom, Inspectors,Selection) Tools</li>
+<li class="fragment fade-in"><span class=
+"fragment highlight-red">NO JAVASCRIPT CODING REQUIRED</span></li>
+</ul>
+<div class="fragment fade-in">
+<h4>Resources</h4>
+<ul>
+<li><a href="https://bokeh.org/" target="_blank">BOKEH Documentation, Tutorials and
+Demos</a></li>
+<li><a href=
+"https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb" target="_blank">
+Tutorials on Binder</a></li>
+</ul>
+</div>
+</section>
+
+<section>
+<h2><b>Ways to use Bokeh</b></h2>
+<ul>
+<li class="fragment fade-in">Jupyter notebook</li>
+<li class="fragment fade-in">Bokeh Applications:
+<ul>
+<li>Run in server mode.</li>
+<li>Synchronize between Python and Browser</li>
+<li>100% Python code including callbacks</li>
+</ul>
+</li>
+<li class="fragment fade-in">Standalone HTML:
+<ul>
+<li>Self-contained HTML with Data, Javascript and CSS.</li>
+<li>No need for a server</li>
+<li>Callbacks are written in Javascript</li>
+</ul>
+</li>
+</ul>
+</section>
+
+<section>
+<h3><b>Tabula-Py</b></h3>
+<ul "fragment fade-in">
+<li>Convert tables in PDF to DataFrame, JSON, CSV</li>
+<li>'read_pdf()' and 'read_pdf_with_template()'</li>
+</ul>
+
+<div class="fragment fade-in" style="margin-top:2em;">
+<h4>Resources</h4>
+<ul>
+<li style="text-align:left"><a href=
+"https://tabula-py.readthedocs.io/en/latest/" target="_blank">Tabula-Py
+Documentation</a></li>
+<li><a href="https://colab.research.google.com/github/chezou/tabula-py/blob/master/examples/tabula_example.ipynb" target="_blank">Examples on Colab
+</a></li>
+</ul>
+</div>
+</section>
+
+<section>
+<h3>Other Helpers</h3>
+<ul class="fragment fade-in">
+<li><b><a href="https://mapshaper.org" target="_blank">mapshaper.org</a></b></li>
+<li style="list-style: none; display: inline">
+<ul>
+<li>Simplify GeoJSON map to decrease HTML file size for faster load time</li>
+</ul>
+</li>
+</ul>
+<ul class="fragment fade-in">
+<li><b><a href=
+"https://docs.python.org/3/library/filecmp.html" target="_blank">FileCmp</a></b></li>
+<li style="list-style: none; display: inline">
+<ul>
+<li> Part of Python Standard Lib.</li>
+<li>Compares files/PDF's based on the content or status of file
+(os.stats)</li>
+</ul>
+</li>
+</ul>
+</section>
+
+<section>
+<h2>Questions?</h2>
+<div style="text-align:center; margin-top:4em;">
+
+<h4>Slides</h4>
+<a href="https://tinyurl.com/sd-covid-slides" target="_blank">https://tinyurl.com/sd-covid-slides</a>
+</div>
+
+</section>
+<script src="js/reveal.js">
+</script> 
+<script>
+                        // More info about config & dependencies:
+                        // - https://github.com/hakimel/reveal.js#configuration
+                        // - https://github.com/hakimel/reveal.js#dependencies
+                Reveal.initialize({
+                                hash: true,
+                                dependencies: [
+                                        { src: 'plugin/markdown/marked.js' },
+                                        { src: 'plugin/markdown/markdown.js' },
+                                        { src: 'node_modules/reveal.js-menu/menu.js' },
+                                        { src: 'plugin/highlight/highlight.js' },
+                                        { src: 'plugin/notes/notes.js', async: true }
+                                ],
+                menu: {
+                side: 'left',
+                width: 'normal',
+                numbers: false,
+                titleSelector: 'h1, h2, h3, h4, h5, h6',
+                useTextContentForMissingTitles: false,
+                hideMissingTitles: false,
+                markers: true,
+                custom: false,
+                themes: true,
+                themesPath: 'css/theme/',
+                transitions: false,
+                openButton: true,
+                openSlideNumber: false,
+                keyboard: true,
+                sticky: false,
+                autoOpen: true,
+                delayInit: false,
+                openOnInit: false,
+                loadIcons: true
+                },
+
+});
+</script></div>
+</div>
+</body>
+</html>

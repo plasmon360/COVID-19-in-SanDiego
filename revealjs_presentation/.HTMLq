@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Linux version 5.2.0">
+<meta charset="utf-8">
+<meta name="viewport" content=
+"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Visualizing San Diego's COVID19 Data in Browser using
+Python</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/reveal.css">
+<link rel="stylesheet" href="css/theme/black.css" id="theme">
+<!-- Theme used for syntax highlighting of code -->
+<link rel="stylesheet" href="lib/css/monokai.css">
+<!-- Printing and PDF exports -->
+
+<script>
+                        var link = document.createElement( 'link' );
+                        link.rel = 'stylesheet';
+                        link.type = 'text/css';
+                        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+                        document.getElementsByTagName( 'head' )[0].appendChild( link );
+</script>
+<style>
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section>
+<h2 style="text-align: right;">Visualizing SanDiego's</h2>
+<h2 style="text-align: right;">COVID 19 Data</h2>
+<h2 style="text-align: right;">in a Browser</h2>
+<h2 style="text-align: right;">using Python</h2>
+</section>
+<section>
+<h2><b>Bala Juluri</b></h2>
+<h4><a href="juluribk.com/" target="_blank" style=
+"height: 50px;">juluribk.com</a></h4>
+<ul>
+<li>Research Scientist in Solar Energy Domain</li>
+<li>Empowered by Python</li>
+<li><strike>Epidemiologist/ Public Health Officier</strike></li>
+<li><strike>Visualization Expert</strike></li>
+</ul>
+</section>
+<section>
+<h2>Motivation</h2>
+<div class="container">
+<div clas='col'>
+<h4>Cases in different ZipCodes</h4>
+<img src="lib/images/Screenshot_2020-05-18_12-38-50.png"></div>
+<div clas='col'>
+<h4>Cases for different Ethinicity</h4>
+<img src="lib/images/Screenshot_2020-05-18_12-54-03.png"></div>
+</div>
+<ul>
+<li>
+<h4>When I started working on this, San Diego county was providing
+data in the form of PDF's (not much visualization)</h4>
+</li>
+<li>
+<h4>Map of cases with Zipcode would be interesting to see</h4>
+</li>
+</ul>
+</section>
+<section>
+<h3>Visualization Link</h3>
+<span style='font-size:100px;'>⇩</span>
+<p><a href=
+"https://tinyurl.com/sd-covid-vis">https://tinyurl.com/sd-covid-vis</a></p>
+</section>
+<section data-menu-title="Demo" data-background-iframe=
+"https://juluribk.com/Covid-19_in_Sandiego.html#Covid-19_in_Sandiego">
+</section>
+<section>
+<h3>Data Pipeline</h3>
+<div class="mxgraph" style="max-width:100%;" data-mxgraph=
+"{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;lightbox&quot;:false,&quot;nav&quot;:true,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2020-05-25T18:16:12.329Z\&quot; aent=\&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36\&quot; etag=\&quot;0hF_Mh-YkQONkXTs_oB_\&quot; agent=\&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36\&quot; version=\&quot;13.1.3\&quot; type=\&quot;google\&quot;&gt;&lt;diagram id=\&quot;C5RBs43oDa-KdzZeNtuy\&quot; name=\&quot;Page-1\&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}">
+</div>
+<script type="text/javascript" src=
+"https://app.diagrams.net/js/viewer.min.js">
+</script></section>
+<section>
+<h3><b>Tabula-Py</b></h3>
+<ul>
+<li>Python wrapper of tabula-Java</li>
+<li>Tool to convert PDF tables to Pandas Data Frame, JSON, CSV</li>
+<li>'read_pdf()' and 'read_pdf_with_template()'</li>
+</ul>
+<h4>Resources</h4>
+<ul>
+<li style="text-align:left"><a href=
+"https://tabula-py.readthedocs.io/en/latest/">Tabula-Py
+Documentation</a></li>
+<li><a href="https://www.w3schools.com">Examples on Colab
+W3Schools</a></li>
+</ul>
+</section>
+<section>
+<h2>Bokeh</h2>
+<ul>
+<li class="fragment fade-in">Interactive Visualization Python
+Library for web browsers</li>
+<li class="fragment fade-in">Plots, Dashboards and Data
+applications</li>
+<li class="fragment fade-in">Python Code -&gt; JSON -&gt; BOKEHJS
+client library</li>
+<li class="fragment fade-in">Interactivity (Pan, Zoom, Inspectors,
+Data Selection etc)</li>
+<li class="fragment fade-in"><span class=
+"fragment highlight-red">NO JAVASCRIPT REQUIRED</span></li>
+</ul>
+<div class="fragment fade-in">
+<h4>Resources</h4>
+<ul>
+<li><a href="https://bokeh.org/">BOKEH Documentation, Tutorials and
+Demos</a></li>
+<li><a href=
+"https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb">
+Tutorials on Binder</a></li>
+</ul>
+</div>
+</section>
+<section>
+<h2><b>Ways to use Bokeh</b></h2>
+<ul>
+<li class="fragment fade-in">Jupyter notebook</li>
+<li class="fragment fade-in">Bokeh Applications:
+<ul>
+<li>Run in server mode.</li>
+<li>Synchronize between Python and Browser</li>
+<li>100% Python code including callbacks</li>
+</ul>
+</li>
+<li class="fragment fade-in">Standalone HTML:
+<ul>
+<li>Self-contained HTML, Javascript and CSS.</li>
+<li>Callbacks are written in Javascript</li>
+</ul>
+</li>
+</ul>
+</section>
+<section>
+<h3>Other Helpers</h3>
+<ul class="fragment fade-in">
+<li><b><a href="mapshaper.org">Map Shaper</a></b></li>
+<li style="list-style: none; display: inline">
+<ul>
+<li>Simplify GeoJSON map to decrease page load size</li>
+<li>Reduce map precision</li>
+</ul>
+</li>
+</ul>
+<ul class="fragment fade-in">
+<li><b><a href=
+"https://docs.python.org/3/library/filecmp.html">FileCmp</a></b></li>
+<li style="list-style: none; display: inline">
+<ul>
+<li>Python Standard Lib.</li>
+<li>Compares files/PDF's based of content or status of file
+(os.stats)</li>
+</ul>
+</li>
+</ul>
+</section>
+<section>
+<h2>Thank You</h2>
+<h4>juluribk@gmail.com</h4>
+</section>
+<script src="js/reveal.js">
+</script> 
+<script>
+                        // More info about config & dependencies:
+                        // - https://github.com/hakimel/reveal.js#configuration
+                        // - https://github.com/hakimel/reveal.js#dependencies
+                        Reveal.initialize({
+                                hash: true,
+                                dependencies: [
+                                        { src: 'plugin/markdown/marked.js' },
+                                        { src: 'plugin/markdown/markdown.js' },
+                                        { src: 'node_modules/reveal.js-menu/menu.js' },
+                                        { src: 'plugin/highlight/highlight.js' },
+                                        { src: 'plugin/notes/notes.js', async: true }
+                                ],
+                menu: {
+                // Specifies which side of the presentation the menu will 
+                // be shown. Use 'left' or 'right'.
+                side: 'left',
+
+                // Specifies the width of the menu.
+                // Can be one of the following:
+                // 'normal', 'wide', 'third', 'half', 'full', or
+                // any valid css length value
+                width: 'normal',
+
+                // Add slide numbers to the titles in the slide list.
+                // Use 'true' or format string (same as reveal.js slide numbers)
+                numbers: false,
+
+                // Specifies which slide elements will be used for generating
+                // the slide titles in the menu. The default selects the first
+                // heading element found in the slide, but you can specify any
+                // valid css selector and the text from the first matching
+                // element will be used.
+                // Note: that a section data-menu-title attribute or an element
+                // with a menu-title class will take precedence over this option
+                titleSelector: 'h1, h2, h3, h4, h5, h6',
+
+                // If slides do not have a matching title, attempt to use the
+                // start of the text content as the title instead
+                useTextContentForMissingTitles: false,
+
+                // Hide slides from the menu that do not have a title.
+                // Set to 'true' to only list slides with titles.
+                hideMissingTitles: false,
+
+                // Adds markers to the slide titles to indicate the 
+                // progress through the presentation. Set to 'false'
+                // to hide the markers.
+                markers: true,
+
+                // Specify custom panels to be included in the menu, by
+                // providing an array of objects with 'title', 'icon'
+                // properties, and either a 'src' or 'content' property.
+                custom: false,
+
+                // Specifies the themes that will be available in the themes
+                // menu panel. Set to 'true' to show the themes menu panel
+                // with the default themes list. Alternatively, provide an
+                // array to specify the themes to make available in the
+                // themes menu panel, for example...
+                // [
+                //     { name: 'Black', theme: 'css/theme/black.css' },
+                //     { name: 'White', theme: 'css/theme/white.css' },
+                //     { name: 'League', theme: 'css/theme/league.css' }
+                // ]
+                themes: true,
+
+                // Specifies the path to the default theme files. If your
+                // presentation uses a different path to the standard reveal
+                // layout then you need to provide this option, but only
+                // when 'themes' is set to 'true'. If you provide your own 
+                // list of themes or 'themes' is set to 'false' the 
+                // 'themesPath' option is ignored.
+                themesPath: 'css/theme/',
+
+                // Specifies if the transitions menu panel will be shown.
+                // Set to 'true' to show the transitions menu panel with
+                // the default transitions list. Alternatively, provide an
+                // array to specify the transitions to make available in
+                // the transitions panel, for example...
+                // ['None', 'Fade', 'Slide']
+                transitions: false,
+
+                // Adds a menu button to the slides to open the menu panel.
+                // Set to 'false' to hide the button.
+                openButton: true,
+
+                // If 'true' allows the slide number in the presentation to
+                // open the menu panel. The reveal.js slideNumber option must 
+                // be displayed for this to take effect
+                openSlideNumber: false,
+
+                // If true allows the user to open and navigate the menu using
+                // the keyboard. Standard keyboard interaction with reveal
+                // will be disabled while the menu is open.
+                keyboard: true,
+
+                // Normally the menu will close on user actions such as
+                // selecting a menu item, or clicking the presentation area.
+                // If 'true', the sticky option will leave the menu open
+                // until it is explicitly closed, that is, using the close
+                // button or pressing the ESC or m key (when the keyboard 
+                // interaction option is enabled).
+                sticky: false,
+
+                // If 'true' standard menu items will be automatically opened
+                // when navigating using the keyboard. Note: this only takes 
+                // effect when both the 'keyboard' and 'sticky' options are enabled.
+                autoOpen: true,
+
+                // If 'true' the menu will not be created until it is explicitly
+                // requested by calling RevealMenu.init(). Note this will delay
+                // the creation of all menu panels, including custom panels, and
+                // the menu button.
+                delayInit: false,
+
+                // If 'true' the menu will be shown when the menu is initialised.
+                openOnInit: false,
+
+                // By default the menu will load it's own font-awesome library
+                // icons. If your presentation needs to load a different
+                // font-awesome library the 'loadIcons' option can be set to false
+                // and the menu will not attempt to load the font-awesome library.
+                loadIcons: true
+        },
+
+});
+</script></div>
+</div>
+</body>
+</html>
