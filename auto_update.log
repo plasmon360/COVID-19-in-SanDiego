@@ -1,0 +1,2656 @@
+Thu May 14 06:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16760 bytes to Get_Sandiego_County_Data.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Thu May 14 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16760 bytes to Get_Sandiego_County_Data.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Thu May 14 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16760 bytes to Get_Sandiego_County_Data.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Thu May 14 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16760 bytes to Get_Sandiego_County_Data.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Thu May 14 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17070 bytes to Get_Sandiego_County_Data.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 53511 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-05-14_08_00_AM.html to pelican
+Addng and Commit to github
+[master 1caefbb] Updated for 05-14-2020
+ 9 files changed, 456 insertions(+), 376 deletions(-)
+ rewrite Data/Total_Count/all_dates_count_df.json (95%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_14-May-2020-18_00_03.pdf
+ rewrite HTML_outputs/Covid19_2020-05-13_08_00_AM.html (67%)
+ create mode 100644 HTML_outputs/Covid19_2020-05-14_08_00_AM.html
+ create mode 100644 auto_update.log
+Pushing
+To github.com:plasmon360/COVID-19-in-SanDiego.git
+   3e94f41..1caefbb  master -> master
+Adding changes and commiting  to static sebsite
+[source b68fa41] Updated covid19 post 05-14-2020
+ 5 files changed, 360 insertions(+), 178 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (72%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (65%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   52991d3..b68fa41  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 1.59 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   b00619e..94309c8  master -> master
+Fri May 15 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16761 bytes to Get_Sandiego_County_Data.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Fri May 15 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16761 bytes to Get_Sandiego_County_Data.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Fri May 15 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17070 bytes to Get_Sandiego_County_Data.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 53737 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-05-15_08_00_AM.html to pelican
+Addng and Commit to github
+[master b4f5711] Updated for 05-15-2020
+ 6 files changed, 199 insertions(+), 59 deletions(-)
+ rewrite Data/Total_Count/all_dates_count_df.json (95%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_15-May-2020-18_00_02.pdf
+ create mode 100644 HTML_outputs/Covid19_2020-05-15_08_00_AM.html
+Pushing
+To github.com:plasmon360/COVID-19-in-SanDiego.git
+   1caefbb..b4f5711  master -> master
+Adding changes and commiting  to static sebsite
+[source 0f06f17] Updated covid19 post 05-15-2020
+ 4 files changed, 5340 insertions(+), 5337 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (71%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/all.atom.xml (60%)
+ rename output/{Covid-19_in_Sandiego.html => feeds/python.atom.xml} (53%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   b68fa41..0f06f17  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 3.09 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   94309c8..131a921  master -> master
+Sat May 16 06:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16761 bytes to Get_Sandiego_County_Data.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sat May 16 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16761 bytes to Get_Sandiego_County_Data.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sat May 16 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16761 bytes to Get_Sandiego_County_Data.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sat May 16 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16761 bytes to Get_Sandiego_County_Data.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sat May 16 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17071 bytes to Get_Sandiego_County_Data.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 53963 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-05-16_08_00_AM.html to pelican
+Addng and Commit to github
+[master 03c9311] Updated for 05-16-2020
+ 11 files changed, 1020 insertions(+), 60 deletions(-)
+ create mode 100644 Data/Deaths_by_demographics/Temp/deaths_by_demographics_16-May-2020-12_16_11.pdf
+ create mode 100644 Data/Deaths_by_demographics/Temp/deaths_by_demographics_16-May-2020-14_54_55.pdf
+ create mode 100644 Data/Deaths_by_demographics/Temp/deaths_by_demographics_16-May-2020-16_05_47.pdf
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_16-May-2020-11_51_12.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (95%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_16-May-2020-18_00_03.pdf
+ create mode 100644 Get_deaths_by_demographics.ipynb
+ create mode 100644 HTML_outputs/Covid19_2020-05-16_08_00_AM.html
+Pushing
+To github.com:plasmon360/COVID-19-in-SanDiego.git
+   b4f5711..03c9311  master -> master
+Adding changes and commiting  to static sebsite
+[source 9ba195c] Updated covid19 post 05-16-2020
+ 4 files changed, 5404 insertions(+), 5231 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (72%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/all.atom.xml (61%)
+ rewrite output/feeds/python.atom.xml (72%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   0f06f17..9ba195c  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 2.73 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   131a921..aafec3e  master -> master
+Sun May 17 06:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16762 bytes to Get_Sandiego_County_Data.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sun May 17 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16762 bytes to Get_Sandiego_County_Data.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sun May 17 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16762 bytes to Get_Sandiego_County_Data.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sun May 17 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16762 bytes to Get_Sandiego_County_Data.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sun May 17 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17068 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7459 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 67380 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-05-17_08_00_AM.html to pelican
+Addng and Commit to github
+[master ccd9fb4] Updated for 05-17-2020
+ 15 files changed, 869 insertions(+), 966 deletions(-)
+ delete mode 100644 Data/Deaths_by_demographics/Temp/deaths_by_demographics_16-May-2020-14_54_55.pdf
+ delete mode 100644 Data/Deaths_by_demographics/Temp/deaths_by_demographics_16-May-2020-16_05_47.pdf
+ create mode 100644 Data/Deaths_by_demographics/all_dates_deaths_df.json
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_16-May-2020-20_06_10.tabula-template.json
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_16-May-2020-22_11_24.pdf
+ rename Data/Deaths_by_demographics/{Temp/deaths_by_demographics_16-May-2020-12_16_11.pdf => deaths_by_demographics_17-May-2020-18_00_06.pdf} (73%)
+ rewrite Data/Total_Count/all_dates_count_df.json (95%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_17-May-2020-18_00_03.pdf
+ rewrite Get_deaths_by_demographics.ipynb (93%)
+ rewrite HTML_outputs/Covid19_2020-05-16_08_00_AM.html (74%)
+ create mode 100644 HTML_outputs/Covid19_2020-05-17_08_00_AM.html
+Pushing
+To github.com:plasmon360/COVID-19-in-SanDiego.git
+   03c9311..ccd9fb4  master -> master
+Adding changes and commiting  to static sebsite
+[source 56b96b0] Updated covid19 post 05-17-2020
+ 4 files changed, 5404 insertions(+), 5231 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (71%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/all.atom.xml (60%)
+ rewrite output/feeds/python.atom.xml (72%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   9ba195c..56b96b0  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 2.73 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   aafec3e..4f6be3a  master -> master
+Mon May 18 06:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16759 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Mon May 18 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16759 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Mon May 18 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16759 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Mon May 18 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16759 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Mon May 18 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] ERROR | Error while converting 'Get_Sandiego_County_Data.ipynb'
+Traceback (most recent call last):
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/notebook.py", line 32, in from_notebook_node
+    nb_copy, resources = super(NotebookExporter, self).from_notebook_node(nb, resources, **kw)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+    return self.preprocess(nb, resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 405, in preprocess
+    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 448, in preprocess_cell
+    raise CellExecutionError.from_cell_and_msg(cell, out)
+nbconvert.preprocessors.execute.CellExecutionError: An error occurred while executing the following cell:
+------------------
+from filecmp import cmp
+
+# If downloaded file is the same as the latest pdf, then delete the file and do nothing
+if cmp(downloaded_pdf, latest_pdf, shallow=True):
+    print('File already exists. Deleting the temp file')
+    os.remove(downloaded_pdf)
+# If downloaded file is different from the latest pdf, then 
+# 1) load all_dates_count json file with all the data into a df
+# 2) read the downloaded file into a df
+# 3) concateneate the two files 
+# 4) update the all_dates_count json file contents
+# 5) Move the downloaded file out of the TEMP directory and move it to the folder with all unique pdfs
+else:
+    print('Downloaded file is unique')
+    
+    ## Step 1
+    with open('./Data/Total_Count/all_dates_count_df.json','r') as f:
+        all_dates_count_df = pd.read_json(f, convert_dates=['ReportedDate', 'UpdatedDatetime'])
+    
+    ## Step 2
+    count_data = tabula_convert_pdf_to_df(downloaded_pdf)
+    total_count = count_data['TotalCount'].unique()[0]
+    updated_date = count_data['UpdatedDatetime'].iloc[0].to_pydatetime()
+    reported_date = count_data['ReportedDate'].iloc[0].to_pydatetime()
+    title = f'Date through {reported_date:%Y-%m-%d}, Updated on {updated_date:%Y-%m-%d %I:%M %p}'
+    print(f'{title}, TotalCount: {total_count}')
+    
+    ## Step 3
+    all_dates_count_df = pd.concat([all_dates_count_df,count_data])
+    all_dates_count_df = all_dates_count_df.sort_values(by='ReportedDate', ascending=False).reset_index(drop=True)
+    
+    ## Step 4 
+    all_dates_count_df.to_json('./Data/Total_Count/all_dates_count_df.json')
+    
+    # Step 5 
+    print('Moving the file from TEMP directory to directory with all unique pdfs')
+    os.rename(downloaded_pdf,latest_pdf.parent/downloaded_pdf.name)
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mIndexError[0m                                Traceback (most recent call last)
+[0;32m<ipython-input-5-1d2f29c4e71a>[0m in [0;36m<module>[0;34m[0m
+[1;32m     19[0m [0;34m[0m[0m
+[1;32m     20[0m     [0;31m## Step 2[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 21[0;31m     [0mcount_data[0m [0;34m=[0m [0mtabula_convert_pdf_to_df[0m[0;34m([0m[0mdownloaded_pdf[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     22[0m     [0mtotal_count[0m [0;34m=[0m [0mcount_data[0m[0;34m[[0m[0;34m'TotalCount'[0m[0;34m][0m[0;34m.[0m[0munique[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0;36m0[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[1;32m     23[0m     [0mupdated_date[0m [0;34m=[0m [0mcount_data[0m[0;34m[[0m[0;34m'UpdatedDatetime'[0m[0;34m][0m[0;34m.[0m[0miloc[0m[0;34m[[0m[0;36m0[0m[0;34m][0m[0;34m.[0m[0mto_pydatetime[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m<ipython-input-3-2767d1929cee>[0m in [0;36mtabula_convert_pdf_to_df[0;34m(pdf)[0m
+[1;32m     35[0m         [0mcount_data[0m [0;34m=[0m [0mpd[0m[0;34m.[0m[0mconcat[0m[0;34m([0m[0;34m[[0m[0mraw_data[0m[0;34m[[0m[0;36m1[0m[0;34m][0m[0;34m,[0m [0mraw_data[0m[0;34m[[0m[0;36m2[0m[0;34m][0m[0;34m][0m[0;34m,[0m[0maxis[0m [0;34m=[0m [0;36m0[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     36[0m         [0mcount_data[0m [0;34m=[0m [0mcount_data[0m[0;34m.[0m[0mrename[0m[0;34m([0m[0mcolumns[0m[0;34m=[0m[0;34m{[0m[0;34m'Zip Code'[0m[0;34m:[0m[0;34m'ZipCode'[0m[0;34m,[0m [0;34m'Count'[0m[0;34m:[0m[0;34m'CaseCount'[0m[0;34m,[0m [0;34m'Rate per 100,000*'[0m[0;34m:[0m [0;34m"RatePer100000"[0m[0;34m}[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 37[0;31m         [0mcount_data[0m[0;34m[[0m[0;34m'TotalCount'[0m[0;34m][0m [0;34m=[0m [0mcount_data[0m[0;34m[[0m[0mcount_data[0m[0;34m[[0m[0;34m'ZipCode'[0m[0;34m][0m[0;34m==[0m[0;34m'San Diego County Total'[0m[0;34m][0m[0;34m[[0m[0;34m'CaseCount'[0m[0;34m][0m[0;34m.[0m[0mvalues[0m[0;34m[[0m[0;36m0[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     38[0m         [0mcount_data[0m [0;34m=[0m [0mcount_data[0m[0;34m[[0m[0mcount_data[0m[0;34m[[0m[0;34m'ZipCode'[0m[0;34m][0m [0;34m!=[0m [0;34m'San Diego County Total'[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[1;32m     39[0m         [0mcount_data[0m[0;34m[[0m[0;34m'RatePer100000'[0m[0;34m][0m [0;34m=[0m  [0mcount_data[0m[0;34m[[0m[0;34m'RatePer100000'[0m[0;34m][0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0;34m'**'[0m[0;34m,[0m[0;34m"Unknown"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mIndexError[0m: index 0 is out of bounds for axis 0 with size 0
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7822 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 67380 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-05-17_08_00_AM.html to pelican
+Addng and Commit to github
+[master cb36aa7] Updated for 05-18-2020
+ 8 files changed, 311 insertions(+), 140 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (91%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_18-May-2020-18_00_09.pdf
+ create mode 100644 Data/Total_Count/Temp/covid19_in_sd_18-May-2020-18_00_03.pdf
+ rewrite HTML_outputs/Covid19_2020-05-17_08_00_AM.html (69%)
+Pushing
+To github.com:plasmon360/COVID-19-in-SanDiego.git
+   ccd9fb4..cb36aa7  master -> master
+Adding changes and commiting  to static sebsite
+[source 85463d7] Updated covid19 post 05-18-2020
+ 4 files changed, 5404 insertions(+), 5231 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (69%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/all.atom.xml (60%)
+ rewrite output/feeds/python.atom.xml (71%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   56b96b0..85463d7  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 3.31 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   4f6be3a..d37ccce  master -> master
+Tue May 19 06:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16972 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Tue May 19 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16972 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Tue May 19 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16972 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Tue May 19 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16972 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Tue May 19 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] ERROR | Error while converting 'Get_Sandiego_County_Data.ipynb'
+Traceback (most recent call last):
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/notebook.py", line 32, in from_notebook_node
+    nb_copy, resources = super(NotebookExporter, self).from_notebook_node(nb, resources, **kw)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+    return self.preprocess(nb, resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 405, in preprocess
+    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 448, in preprocess_cell
+    raise CellExecutionError.from_cell_and_msg(cell, out)
+nbconvert.preprocessors.execute.CellExecutionError: An error occurred while executing the following cell:
+------------------
+from filecmp import cmp
+
+# If downloaded file is the same as the latest pdf, then delete the file and do nothing
+if cmp(downloaded_pdf, latest_pdf, shallow=True):
+    print('File already exists. Deleting the temp file')
+    os.remove(downloaded_pdf)
+# If downloaded file is different from the latest pdf, then 
+# 1) load all_dates_count json file with all the data into a df
+# 2) read the downloaded file into a df
+# 3) concateneate the two files 
+# 4) update the all_dates_count json file contents
+# 5) Move the downloaded file out of the TEMP directory and move it to the folder with all unique pdfs
+else:
+    print('Downloaded file is unique')
+    
+    ## Step 1
+    with open('./Data/Total_Count/all_dates_count_df.json','r') as f:
+        all_dates_count_df = pd.read_json(f, convert_dates=['ReportedDate', 'UpdatedDatetime'])
+    
+    ## Step 2
+    count_data = tabula_convert_pdf_to_df(downloaded_pdf)
+    total_count = count_data['TotalCount'].unique()[0]
+    updated_date = count_data['UpdatedDatetime'].iloc[0].to_pydatetime()
+    reported_date = count_data['ReportedDate'].iloc[0].to_pydatetime()
+    title = f'Date through {reported_date:%Y-%m-%d}, Updated on {updated_date:%Y-%m-%d %I:%M %p}'
+    print(f'{title}, TotalCount: {total_count}')
+    
+    ## Step 3
+    all_dates_count_df = pd.concat([all_dates_count_df,count_data])
+    all_dates_count_df = all_dates_count_df.sort_values(by='ReportedDate', ascending=False).reset_index(drop=True)
+    
+    ## Step 4 
+    all_dates_count_df.to_json('./Data/Total_Count/all_dates_count_df.json')
+    
+    # Step 5 
+    print('Moving the file from TEMP directory to directory with all unique pdfs')
+    os.rename(downloaded_pdf,latest_pdf.parent/downloaded_pdf.name)
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mValueError[0m                                Traceback (most recent call last)
+[0;32m<ipython-input-5-1d2f29c4e71a>[0m in [0;36m<module>[0;34m[0m
+[1;32m     19[0m [0;34m[0m[0m
+[1;32m     20[0m     [0;31m## Step 2[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 21[0;31m     [0mcount_data[0m [0;34m=[0m [0mtabula_convert_pdf_to_df[0m[0;34m([0m[0mdownloaded_pdf[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     22[0m     [0mtotal_count[0m [0;34m=[0m [0mcount_data[0m[0;34m[[0m[0;34m'TotalCount'[0m[0;34m][0m[0;34m.[0m[0munique[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0;36m0[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[1;32m     23[0m     [0mupdated_date[0m [0;34m=[0m [0mcount_data[0m[0;34m[[0m[0;34m'UpdatedDatetime'[0m[0;34m][0m[0;34m.[0m[0miloc[0m[0;34m[[0m[0;36m0[0m[0;34m][0m[0;34m.[0m[0mto_pydatetime[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m<ipython-input-3-fda4dd25f950>[0m in [0;36mtabula_convert_pdf_to_df[0;34m(pdf)[0m
+[1;32m     55[0m     [0mcount_data[0m[0;34m[[0m[0;34m'UpdatedDatetime'[0m[0;34m][0m [0;34m=[0m [0mupdated_time[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     56[0m     [0mcount_data[0m[0;34m[[0m[0;34m'CaseCount'[0m[0;34m][0m [0;34m=[0m [0mcount_data[0m[0;34m[[0m[0;34m'CaseCount'[0m[0;34m][0m[0;34m.[0m[0mastype[0m[0;34m([0m[0;34m'int16'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 57[0;31m     [0mcount_data[0m[0;34m[[0m[0;34m'TotalCount'[0m[0;34m][0m [0;34m=[0m [0mcount_data[0m[0;34m[[0m[0;34m'TotalCount'[0m[0;34m][0m[0;34m.[0m[0mstr[0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0;34m','[0m[0;34m,[0m[0;34m''[0m[0;34m)[0m[0;34m.[0m[0mastype[0m[0;34m([0m[0;34m'int16'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     58[0m     [0mcount_data[0m[0;34m[[0m[0;34m'ZipCode'[0m[0;34m][0m [0;34m=[0m [0mcount_data[0m[0;34m[[0m[0;34m'ZipCode'[0m[0;34m][0m[0;34m.[0m[0mastype[0m[0;34m([0m[0;34m'str'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     59[0m     [0mcount_data[0m[0;34m[[0m[0;34m'ZipCode'[0m[0;34m][0m [0;34m=[0m [0mcount_data[0m[0;34m[[0m[0;34m'ZipCode'[0m[0;34m][0m[0;34m.[0m[0mstr[0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0;34m'*'[0m[0;34m,[0m[0;34m''[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/pandas/core/generic.py[0m in [0;36mastype[0;34m(self, dtype, copy, errors)[0m
+[1;32m   5696[0m         [0;32melse[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   5697[0m             [0;31m# else, only a single dtype is given[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 5698[0;31m             [0mnew_data[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0m_data[0m[0;34m.[0m[0mastype[0m[0;34m([0m[0mdtype[0m[0;34m=[0m[0mdtype[0m[0;34m,[0m [0mcopy[0m[0;34m=[0m[0mcopy[0m[0;34m,[0m [0merrors[0m[0;34m=[0m[0merrors[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   5699[0m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_constructor[0m[0;34m([0m[0mnew_data[0m[0;34m)[0m[0;34m.[0m[0m__finalize__[0m[0;34m([0m[0mself[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   5700[0m [0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/pandas/core/internals/managers.py[0m in [0;36mastype[0;34m(self, dtype, copy, errors)[0m
+[1;32m    580[0m [0;34m[0m[0m
+[1;32m    581[0m     [0;32mdef[0m [0mastype[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mdtype[0m[0;34m,[0m [0mcopy[0m[0;34m:[0m [0mbool[0m [0;34m=[0m [0;32mFalse[0m[0;34m,[0m [0merrors[0m[0;34m:[0m [0mstr[0m [0;34m=[0m [0;34m"raise"[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 582[0;31m         [0;32mreturn[0m [0mself[0m[0;34m.[0m[0mapply[0m[0;34m([0m[0;34m"astype"[0m[0;34m,[0m [0mdtype[0m[0;34m=[0m[0mdtype[0m[0;34m,[0m [0mcopy[0m[0;34m=[0m[0mcopy[0m[0;34m,[0m [0merrors[0m[0;34m=[0m[0merrors[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    583[0m [0;34m[0m[0m
+[1;32m    584[0m     [0;32mdef[0m [0mconvert[0m[0;34m([0m[0mself[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/pandas/core/internals/managers.py[0m in [0;36mapply[0;34m(self, f, filter, **kwargs)[0m
+[1;32m    440[0m                 [0mapplied[0m [0;34m=[0m [0mb[0m[0;34m.[0m[0mapply[0m[0;34m([0m[0mf[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    441[0m             [0;32melse[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 442[0;31m                 [0mapplied[0m [0;34m=[0m [0mgetattr[0m[0;34m([0m[0mb[0m[0;34m,[0m [0mf[0m[0;34m)[0m[0;34m([0m[0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    443[0m             [0mresult_blocks[0m [0;34m=[0m [0m_extend_blocks[0m[0;34m([0m[0mapplied[0m[0;34m,[0m [0mresult_blocks[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    444[0m [0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/pandas/core/internals/blocks.py[0m in [0;36mastype[0;34m(self, dtype, copy, errors)[0m
+[1;32m    623[0m             [0mvals1d[0m [0;34m=[0m [0mvalues[0m[0;34m.[0m[0mravel[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    624[0m             [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 625[0;31m                 [0mvalues[0m [0;34m=[0m [0mastype_nansafe[0m[0;34m([0m[0mvals1d[0m[0;34m,[0m [0mdtype[0m[0;34m,[0m [0mcopy[0m[0;34m=[0m[0;32mTrue[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    626[0m             [0;32mexcept[0m [0;34m([0m[0mValueError[0m[0;34m,[0m [0mTypeError[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    627[0m                 [0;31m# e.g. astype_nansafe can fail on object-dtype of strings[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/pandas/core/dtypes/cast.py[0m in [0;36mastype_nansafe[0;34m(arr, dtype, copy, skipna)[0m
+[1;32m    872[0m         [0;31m# work around NumPy brokenness, #1987[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    873[0m         [0;32mif[0m [0mnp[0m[0;34m.[0m[0missubdtype[0m[0;34m([0m[0mdtype[0m[0;34m.[0m[0mtype[0m[0;34m,[0m [0mnp[0m[0;34m.[0m[0minteger[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 874[0;31m             [0;32mreturn[0m [0mlib[0m[0;34m.[0m[0mastype_intsafe[0m[0;34m([0m[0marr[0m[0;34m.[0m[0mravel[0m[0;34m([0m[0;34m)[0m[0;34m,[0m [0mdtype[0m[0;34m)[0m[0;34m.[0m[0mreshape[0m[0;34m([0m[0marr[0m[0;34m.[0m[0mshape[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    875[0m [0;34m[0m[0m
+[1;32m    876[0m         [0;31m# if we have a datetime/timedelta array of objects[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32mpandas/_libs/lib.pyx[0m in [0;36mpandas._libs.lib.astype_intsafe[0;34m()[0m
+
+[0;31mValueError[0m: invalid literal for int() with base 10: 'otal6026'
+ValueError: invalid literal for int() with base 10: 'otal6026'
+
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7459 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 67607 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-05-18_08_00_AM.html to pelican
+Addng and Commit to github
+[master 495286a] Updated for 05-19-2020
+ 8 files changed, 302 insertions(+), 141 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (93%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_19-May-2020-18_00_06.pdf
+ create mode 100644 Data/Total_Count/Temp/covid19_in_sd_19-May-2020-18_00_03.pdf
+ rewrite HTML_outputs/Covid19_2020-05-18_08_00_AM.html (73%)
+Pushing
+To github.com:plasmon360/COVID-19-in-SanDiego.git
+   652c39a..495286a  master -> master
+Adding changes and commiting  to static sebsite
+[source 8241bc2] Updated covid19 post 05-19-2020
+ 4 files changed, 5404 insertions(+), 5231 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (73%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/all.atom.xml (66%)
+ rewrite output/feeds/python.atom.xml (73%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   27b686f..8241bc2  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 1.56 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   13252cc..e13fb66  master -> master
+Wed May 20 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17003 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Wed May 20 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17003 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Wed May 20 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17311 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7822 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 68058 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-05-20_08_00_AM.html to pelican
+Addng and Commit to github
+[master c996328] Updated for 05-20-2020
+ 9 files changed, 249 insertions(+), 106 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (95%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_20-May-2020-18_00_06.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (95%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_20-May-2020-18_00_03.pdf
+ create mode 100644 HTML_outputs/Covid19_2020-05-20_08_00_AM.html
+Pushing
+To github.com:plasmon360/COVID-19-in-SanDiego.git
+   ed02988..c996328  master -> master
+Adding changes and commiting  to static sebsite
+[source fee5ae8] Updated covid19 post 05-20-2020
+ 4 files changed, 5404 insertions(+), 5231 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (70%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/all.atom.xml (60%)
+ rewrite output/feeds/python.atom.xml (72%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   783bc62..fee5ae8  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 1.58 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   77d3dd0..cd1f468  master -> master
+Thu May 21 06:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17002 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Thu May 21 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17002 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Thu May 21 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17002 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Thu May 21 15:00:02 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17002 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Thu May 21 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17311 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7459 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 68284 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-05-21_08_00_AM.html to pelican
+Addng and Commit to github
+[master 518f29f] Updated for 05-21-2020
+ 10 files changed, 2487 insertions(+), 128 deletions(-)
+ create mode 100644 Bokeh_Covid19_visualization_expt.ipynb
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (96%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_21-May-2020-18_00_06.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (95%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_21-May-2020-18_00_03.pdf
+ create mode 100644 HTML_outputs/Covid19_2020-05-21_08_00_AM.html
+Pushing
+To github.com:plasmon360/COVID-19-in-SanDiego.git
+   c996328..518f29f  master -> master
+Adding changes and commiting  to static sebsite
+[source 09e09ee] Updated covid19 post 05-21-2020
+ 4 files changed, 351 insertions(+), 178 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (70%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (66%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   fee5ae8..09e09ee  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 3.13 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   cd1f468..5fc35d7  master -> master
+Fri May 22 06:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17002 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Fri May 22 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17002 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Fri May 22 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17002 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Fri May 22 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17002 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Fri May 22 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17311 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7459 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 68510 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-05-22_08_00_AM.html to pelican
+Addng and Commit to github
+[master dc79288] Updated for 05-22-2020
+ 11 files changed, 2448 insertions(+), 2400 deletions(-)
+ rewrite Bokeh_Covid19_visualization_expt.ipynb (96%)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (97%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_22-May-2020-18_00_07.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (94%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_22-May-2020-18_00_03.pdf
+ rewrite HTML_outputs/Covid19_2020-05-21_08_00_AM.html (71%)
+ create mode 100644 HTML_outputs/Covid19_2020-05-22_08_00_AM.html
+Pushing
+To github.com:plasmon360/COVID-19-in-SanDiego.git
+   518f29f..dc79288  master -> master
+Adding changes and commiting  to static sebsite
+[source 2622cb1] Updated covid19 post 05-22-2020
+ 4 files changed, 351 insertions(+), 178 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (68%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (70%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   09e09ee..2622cb1  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 1.76 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   5fc35d7..c4aa14f  master -> master
+Sat May 23 06:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17002 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sat May 23 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17002 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sat May 23 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17002 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sat May 23 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17002 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sat May 23 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17309 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7822 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 85095 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-05-23_08_00_AM.html to pelican
+Addng and Commit to github
+[master fa50468] Updated for 05-23-2020
+ 9 files changed, 408 insertions(+), 251 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (97%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_23-May-2020-18_00_06.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (95%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_23-May-2020-18_00_03.pdf
+ create mode 100644 HTML_outputs/Covid19_2020-05-23_08_00_AM.html
+Pushing
+To github.com:plasmon360/COVID-19-in-SanDiego.git
+   97bab8c..fa50468  master -> master
+Adding changes and commiting  to static sebsite
+[source 1fc00ae] Updated covid19 post 05-23-2020
+ 4 files changed, 353 insertions(+), 180 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (69%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (70%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   38050d3..1fc00ae  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 1.79 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   8d6d95a..e91f9de  master -> master
+Sun May 24 06:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17000 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sun May 24 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17000 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sun May 24 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17000 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sun May 24 15:00:02 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17000 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sun May 24 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17312 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7459 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 85323 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-05-24_08_00_AM.html to pelican
+Addng and Commit to github
+[master c92a722] Updated for 05-24-2020
+ 9 files changed, 344 insertions(+), 194 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (97%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_24-May-2020-18_00_06.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (94%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_24-May-2020-18_00_03.pdf
+ create mode 100644 HTML_outputs/Covid19_2020-05-24_08_00_AM.html
+Pushing
+To github.com:plasmon360/COVID-19-in-SanDiego.git
+   fa50468..c92a722  master -> master
+Adding changes and commiting  to static sebsite
+[source fcea66d] Updated covid19 post 05-24-2020
+ 4 files changed, 351 insertions(+), 178 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (68%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (69%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   1fc00ae..fcea66d  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 2.68 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   e91f9de..6adf94f  master -> master
+Mon May 25 06:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17003 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Mon May 25 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17003 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Mon May 25 12:00:02 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17003 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Mon May 25 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17003 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Mon May 25 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17311 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7459 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 85548 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-05-25_08_00_AM.html to pelican
+Addng and Commit to github
+[master 6a0f2a0] Updated for 05-25-2020
+ 9 files changed, 347 insertions(+), 182 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (98%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_25-May-2020-18_00_06.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (94%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_25-May-2020-18_00_02.pdf
+ create mode 100644 HTML_outputs/Covid19_2020-05-25_08_00_AM.html
+Pushing
+To github.com:plasmon360/COVID-19-in-SanDiego.git
+   c92a722..6a0f2a0  master -> master
+Adding changes and commiting  to static sebsite
+[source 6020351] Updated covid19 post 05-25-2020
+ 4 files changed, 351 insertions(+), 178 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (68%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (69%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   fcea66d..6020351  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 2.74 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   6adf94f..8a20e40  master -> master
+Tue May 26 06:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17002 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Tue May 26 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17002 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Tue May 26 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17002 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Tue May 26 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17002 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7396 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Tue May 26 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17310 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 7459 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 85771 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-05-26_08_00_AM.html to pelican
+Addng and Commit to github
+Fri May 29 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17690 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15961 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Fri May 29 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17999 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16075 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 86565 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-05-29_08_00_AM.html to pelican
+Addng and Commit to github
+[master de7e7a6] Updated for 05-29-2020
+ 8 files changed, 270 insertions(+), 241 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (98%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_29-May-2020-18_00_05.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (94%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_29-May-2020-18_00_02.pdf
+Adding changes and commiting  to static sebsite
+[source d6b3bb4] Updated covid19 post 05-29-2020
+ 4 files changed, 351 insertions(+), 178 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (69%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (69%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   38ca095..d6b3bb4  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 2.78 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   0d8f213..0ade833  master -> master
+Sat May 30 06:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17690 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16012 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sat May 30 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17690 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16012 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sat May 30 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17690 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16012 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sat May 30 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17690 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16012 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sat May 30 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17999 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16075 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 86790 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-05-30_08_00_AM.html to pelican
+Addng and Commit to github
+[master 0527c03] Updated for 05-30-2020
+ 8 files changed, 306 insertions(+), 231 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (97%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_30-May-2020-18_00_06.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (92%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_30-May-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source aff7e6d] Updated covid19 post 05-30-2020
+ 4 files changed, 351 insertions(+), 178 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (69%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (69%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   d6b3bb4..aff7e6d  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 1.59 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   0ade833..50eb541  master -> master
+Sun May 31 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17690 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16012 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sun May 31 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17690 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16012 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sun May 31 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18000 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16063 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 87017 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-05-31_08_00_AM.html to pelican
+Addng and Commit to github
+[master 3d0d044] Updated for 05-31-2020
+ 8 files changed, 284 insertions(+), 225 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (98%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_31-May-2020-18_00_06.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (93%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_31-May-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source afb3924] Updated covid19 post 05-31-2020
+ 4 files changed, 351 insertions(+), 178 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (70%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (69%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   aff7e6d..afb3924  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 3.22 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   50eb541..6c543c5  master -> master
+Mon Jun  1 12:00:02 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17691 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16000 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Mon Jun  1 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17691 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16000 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Mon Jun  1 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18002 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16070 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 87244 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-01_08_00_AM.html to pelican
+Addng and Commit to github
+[master 7056e7a] Updated for 06-01-2020
+ 8 files changed, 290 insertions(+), 231 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (98%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_01-Jun-2020-18_00_07.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (94%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_01-Jun-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source f8dbdc3] Updated covid19 post 06-01-2020
+ 4 files changed, 351 insertions(+), 178 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (69%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (69%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   afb3924..f8dbdc3  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 4.27 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   6c543c5..bde883c  master -> master
+Tue Jun  2 06:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17693 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16007 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Tue Jun  2 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17693 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16007 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Tue Jun  2 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17693 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16007 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Tue Jun  2 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17693 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16007 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Tue Jun  2 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17998 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16067 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 87465 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-02_08_00_AM.html to pelican
+Addng and Commit to github
+[master 8d239b2] Updated for 06-02-2020
+ 8 files changed, 312 insertions(+), 237 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (98%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_02-Jun-2020-18_00_12.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (93%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_02-Jun-2020-18_00_06.pdf
+Adding changes and commiting  to static sebsite
+[source d883df9] Updated covid19 post 06-02-2020
+ 4 files changed, 351 insertions(+), 178 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (69%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (69%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   f8dbdc3..d883df9  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 3.04 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   bde883c..f309dd4  master -> master
+Wed Jun  3 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18000 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16129 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 87693 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-03_08_00_AM.html to pelican
+Addng and Commit to github
+[master c8abc5a] Updated for 06-03-2020
+ 8 files changed, 286 insertions(+), 243 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (97%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_03-Jun-2020-18_00_06.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (93%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_03-Jun-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source 936c1e6] Updated covid19 post 06-03-2020
+ 4 files changed, 351 insertions(+), 178 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (69%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (70%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   d883df9..936c1e6  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 1.79 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   f309dd4..a0e77e4  master -> master
+Thu Jun  4 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17998 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15966 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 87917 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-04_08_00_AM.html to pelican
+Addng and Commit to github
+[master 580778b] Updated for 06-04-2020
+ 8 files changed, 307 insertions(+), 264 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (98%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_04-Jun-2020-18_00_06.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (93%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_04-Jun-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source 550b917] Updated covid19 post 06-04-2020
+ 4 files changed, 351 insertions(+), 178 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (70%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (66%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   936c1e6..550b917  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 2.76 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   a0e77e4..6503605  master -> master
+Fri Jun  5 06:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17689 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15903 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Fri Jun  5 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17689 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15903 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Fri Jun  5 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17689 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15903 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Fri Jun  5 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17689 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15903 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Fri Jun  5 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18000 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15965 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 88144 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-05_08_00_AM.html to pelican
+Addng and Commit to github
+[master e0118d1] Updated for 06-05-2020
+ 8 files changed, 313 insertions(+), 238 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (97%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_05-Jun-2020-18_00_07.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (93%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_05-Jun-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source 6e73f61] Updated covid19 post 06-05-2020
+ 4 files changed, 351 insertions(+), 178 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (69%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (69%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   550b917..6e73f61  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 4.84 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   6503605..e3a23e1  master -> master
+Sat Jun  6 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17691 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15902 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sat Jun  6 12:28:25 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17691 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15902 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sat Jun  6 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17691 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15902 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sat Jun  6 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18000 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15963 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 88369 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-06_08_00_AM.html to pelican
+Addng and Commit to github
+[master 03cdb4f] Updated for 06-06-2020
+ 8 files changed, 298 insertions(+), 231 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (98%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_06-Jun-2020-18_00_06.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (93%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_06-Jun-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source 3031ca0] Updated covid19 post 06-06-2020
+ 4 files changed, 351 insertions(+), 178 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (68%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (68%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   6e73f61..3031ca0  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 1.74 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   e3a23e1..aaa0746  master -> master
+Sun Jun  7 15:12:04 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17691 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15900 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sun Jun  7 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18000 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15963 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 88595 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-07_08_00_AM.html to pelican
+Addng and Commit to github
+[master e907f36] Updated for 06-07-2020
+ 8 files changed, 269 insertions(+), 218 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (98%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_07-Jun-2020-18_00_06.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (92%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_07-Jun-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source c14fcb9] Updated covid19 post 06-07-2020
+ 92 files changed, 3509 insertions(+), 2352 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (69%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   81617f0..c14fcb9  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 1.64 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   c9e1596..d409383  master -> master
+Mon Jun  8 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17691 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15900 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Mon Jun  8 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17691 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15900 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Mon Jun  8 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18000 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15965 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 88821 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-08_08_00_AM.html to pelican
+Addng and Commit to github
+[master 63ea3b3] Updated for 06-08-2020
+ 8 files changed, 275 insertions(+), 218 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (97%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_08-Jun-2020-18_00_07.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (93%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_08-Jun-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source d164336] Updated covid19 post 06-08-2020
+ 4 files changed, 5416 insertions(+), 5239 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (68%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/all.atom.xml (60%)
+ rewrite output/feeds/python.atom.xml (69%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   c14fcb9..d164336  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 3.08 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   d409383..06571bc  master -> master
+Tue Jun  9 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17999 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15787 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 89046 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-09_08_00_AM.html to pelican
+Addng and Commit to github
+[master 5c7b8e9] Updated for 06-09-2020
+ 8 files changed, 311 insertions(+), 267 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (99%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_09-Jun-2020-18_00_08.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (92%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_09-Jun-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source b23bdf0] Updated covid19 post 06-09-2020
+ 4 files changed, 359 insertions(+), 182 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (68%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (67%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   d164336..b23bdf0  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 2.01 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   06571bc..037909c  master -> master
+Wed Jun 10 09:44:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17690 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15724 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Wed Jun 10 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17690 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15724 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Wed Jun 10 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17690 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15724 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Wed Jun 10 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18537 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] ERROR | Timeout waiting for execute reply (30s).
+Traceback (most recent call last):
+  File "/home/plasmon360/.local/bin/jupyter-nbconvert", line 11, in <module>
+    sys.exit(main())
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/traitlets/config/application.py", line 664, in launch_instance
+    app.start()
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 340, in start
+    self.convert_notebooks()
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 510, in convert_notebooks
+    self.convert_single_notebook(notebook_filename)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 481, in convert_single_notebook
+    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/notebook.py", line 32, in from_notebook_node
+    nb_copy, resources = super(NotebookExporter, self).from_notebook_node(nb, resources, **kw)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+    return self.preprocess(nb, resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 405, in preprocess
+    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 438, in preprocess_cell
+    reply, outputs = self.run_cell(cell, cell_index, store_history)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 571, in run_cell
+    if self._passed_deadline(deadline):
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 541, in _passed_deadline
+    self._handle_timeout()
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 504, in _handle_timeout
+    raise TimeoutError("Cell execution timed out")
+TimeoutError: Cell execution timed out
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 89275 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-10_08_00_AM.html to pelican
+Addng and Commit to github
+[master 1213d2b] Updated for 06-10-2020
+ 6 files changed, 329 insertions(+), 209 deletions(-)
+ rewrite Data/Total_Count/all_dates_count_df.json (93%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_10-Jun-2020-18_00_16.pdf
+Adding changes and commiting  to static sebsite
+[source a4dc0c0] Updated covid19 post 06-10-2020
+ 4 files changed, 359 insertions(+), 182 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (68%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (68%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   b23bdf0..a4dc0c0  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 3.23 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   037909c..d0a26e5  master -> master
+Fri Jun 12 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17692 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15751 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sat Jun 13 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18537 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17189 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 89729 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-13_08_00_AM.html to pelican
+Addng and Commit to github
+[master 5d67f22] Updated for 06-13-2020
+ 9 files changed, 295 insertions(+), 266 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (98%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_13-Jun-2020-18_00_07.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (93%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_11-Jun-2020-17_05_50.pdf
+ create mode 100644 Data/Total_Count/covid19_in_sd_13-Jun-2020-18_00_04.pdf
+Adding changes and commiting  to static sebsite
+[source 3d071b6] Updated covid19 post 06-13-2020
+ 4 files changed, 359 insertions(+), 182 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (69%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (67%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   34dce08..3d071b6  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 2.91 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   8f5b2c4..9aa9654  master -> master
+Sun Jun 14 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17692 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16082 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sun Jun 14 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18536 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17149 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 89954 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-14_08_00_AM.html to pelican
+Addng and Commit to github
+[master a9ae3a2] Updated for 06-14-2020
+ 8 files changed, 304 insertions(+), 252 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (99%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_14-Jun-2020-18_00_07.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (93%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_14-Jun-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source 1ea4630] Updated covid19 post 06-14-2020
+ 4 files changed, 359 insertions(+), 182 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (69%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (69%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   3d071b6..1ea4630  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 3.00 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   9aa9654..74c8cab  master -> master
+Mon Jun 15 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17691 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16042 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Mon Jun 15 18:00:02 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18535 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17165 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 90179 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-15_08_00_AM.html to pelican
+Addng and Commit to github
+[master c0f138d] Updated for 06-15-2020
+ 8 files changed, 309 insertions(+), 258 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (97%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_15-Jun-2020-18_00_08.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (93%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_15-Jun-2020-18_00_04.pdf
+Adding changes and commiting  to static sebsite
+[source 557e451] Updated covid19 post 06-15-2020
+ 4 files changed, 359 insertions(+), 182 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (68%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (69%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   1ea4630..557e451  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 4.02 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   74c8cab..ae20b60  master -> master
+Tue Jun 16 12:01:56 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17690 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16058 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Tue Jun 16 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17690 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16058 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Tue Jun 16 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18540 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16993 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 90411 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-16_08_00_AM.html to pelican
+Addng and Commit to github
+[master 9a5f485] Updated for 06-16-2020
+ 8 files changed, 325 insertions(+), 266 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (98%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_16-Jun-2020-18_00_06.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (92%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_16-Jun-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source 0584173] Updated covid19 post 06-16-2020
+ 4 files changed, 359 insertions(+), 182 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (67%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (68%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   557e451..0584173  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 3.15 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   ae20b60..2162570  master -> master
+Wed Jun 17 15:19:46 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17695 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15886 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Wed Jun 17 18:23:26 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18536 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17038 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 79424 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-17_08_00_AM.html to pelican
+Addng and Commit to github
+[master 402f914] Updated for 06-17-2020
+ 8 files changed, 298 insertions(+), 635 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (98%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_17-Jun-2020-18_23_31.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (92%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_17-Jun-2020-18_23_28.pdf
+Adding changes and commiting  to static sebsite
+[source d962f54] Updated covid19 post 06-17-2020
+ 4 files changed, 359 insertions(+), 182 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (68%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (67%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   0584173..d962f54  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 3.20 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+warning: Not updating refs/heads/master (new tip 26b14322c499764efa28166509d23583c8b6e1f7 does not contain e1c685b1a0344ea669d8576ad1cb85b08a4ec3fc)
+Traceback (most recent call last):
+  File "/home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/venv/bin/ghp-import", line 8, in <module>
+    sys.exit(main())
+  File "/home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/venv/lib/python3.8/site-packages/ghp_import.py", line 238, in main
+    run_import(git, args[0], opts)
+  File "/home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/venv/lib/python3.8/site-packages/ghp_import.py", line 187, in run_import
+    sys.stdout.write(enc("Failed to process commit.\n"))
+TypeError: write() argument must be str, not bytes
+Makefile:87: recipe for target 'github-quiet' failed
+make: *** [github-quiet] Error 1
+Thu Jun 18 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17691 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15931 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Thu Jun 18 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17691 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15931 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Thu Jun 18 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18542 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17000 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 79430 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-18_08_00_AM.html to pelican
+Addng and Commit to github
+[master 9d48dcc] Updated for 06-18-2020
+ 8 files changed, 340 insertions(+), 252 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (98%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_18-Jun-2020-18_00_07.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (92%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_18-Jun-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source d9ba680] Updated covid19 post 06-18-2020
+ 4 files changed, 359 insertions(+), 182 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (65%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (68%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   d962f54..d9ba680  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 3.14 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   e1c685b..c4bf5ff  master -> master
+Fri Jun 19 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17696 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15893 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Fri Jun 19 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17696 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15893 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Fri Jun 19 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18542 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17163 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 79432 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-19_08_00_AM.html to pelican
+Addng and Commit to github
+[master a36528f] Updated for 06-19-2020
+ 8 files changed, 324 insertions(+), 272 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (97%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_19-Jun-2020-18_00_07.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (92%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_19-Jun-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source e71ed54] Updated covid19 post 06-19-2020
+ 4 files changed, 359 insertions(+), 182 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (67%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (67%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   d9ba680..e71ed54  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 3.17 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   c4bf5ff..af7b7c4  master -> master
+Sat Jun 20 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17696 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16056 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sat Jun 20 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18545 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17185 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 79437 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-20_08_00_AM.html to pelican
+Addng and Commit to github
+[master 4108ace] Updated for 06-20-2020
+ 8 files changed, 293 insertions(+), 249 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (96%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_20-Jun-2020-18_00_07.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (92%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_20-Jun-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source 73596a4] Updated covid19 post 06-20-2020
+ 4 files changed, 359 insertions(+), 182 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (67%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (68%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   e71ed54..73596a4  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 3.10 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   af7b7c4..02cc4cf  master -> master
+Sun Jun 21 06:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17699 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16078 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sun Jun 21 09:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17699 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16078 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sun Jun 21 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17699 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16078 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sun Jun 21 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17699 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16078 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sun Jun 21 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18545 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16917 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 79437 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-21_08_00_AM.html to pelican
+Addng and Commit to github
+[master ffb49c5] Updated for 06-21-2020
+ 8 files changed, 342 insertions(+), 274 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (98%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_21-Jun-2020-18_00_07.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (92%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_21-Jun-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source 1bd239a] Updated covid19 post 06-21-2020
+ 4 files changed, 359 insertions(+), 182 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (68%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (67%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   73596a4..1bd239a  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 1.61 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   02cc4cf..5a86554  master -> master
+Mon Jun 22 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17699 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15810 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Mon Jun 22 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18542 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17175 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 79436 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-22_08_00_AM.html to pelican
+Addng and Commit to github
+[master 2040533] Updated for 06-22-2020
+ 8 files changed, 310 insertions(+), 266 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (98%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_22-Jun-2020-18_00_07.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (91%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_22-Jun-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source 1427f55] Updated covid19 post 06-22-2020
+ 4 files changed, 359 insertions(+), 182 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (63%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (67%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   1bd239a..1427f55  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 3.24 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   5a86554..a9ef0e0  master -> master
+Tue Jun 23 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17696 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16068 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Wed Jun 24 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17698 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16063 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Wed Jun 24 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17698 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16063 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Wed Jun 24 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18543 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16968 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 79438 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-24_08_00_AM.html to pelican
+Addng and Commit to github
+[master 36e1df8] Updated for 06-24-2020
+ 8 files changed, 302 insertions(+), 272 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (98%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_24-Jun-2020-18_00_07.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (91%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_24-Jun-2020-18_00_02.pdf
+Adding changes and commiting  to static sebsite
+[source 77c9876] Updated covid19 post 06-24-2020
+ 4 files changed, 359 insertions(+), 182 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (66%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (66%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   b533efc..77c9876  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 1.65 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   8266b72..009e997  master -> master
+Thu Jun 25 18:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 18543 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 16978 bytes to Get_deaths_by_demographics.ipynb
+COUNTY UPDATED THEIR PDF
+Executing jupyter notebook to generate standalone html
+[NbConvertApp] Converting notebook Bokeh_Covid19_visualization.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 79438 bytes to Bokeh_Covid19_visualization.ipynb
+Copying /home/plasmon360/Covid19_Sandiego_Zipcode_Plotting_Bokeh//HTML_outputs/Covid19_2020-06-25_08_00_AM.html to pelican
+Addng and Commit to github
+[master 8903f8d] Updated for 06-25-2020
+ 8 files changed, 292 insertions(+), 256 deletions(-)
+ rewrite Data/Deaths_by_demographics/all_dates_deaths_df.json (98%)
+ create mode 100644 Data/Deaths_by_demographics/deaths_by_demographics_25-Jun-2020-18_00_07.pdf
+ rewrite Data/Total_Count/all_dates_count_df.json (91%)
+ create mode 100644 Data/Total_Count/covid19_in_sd_25-Jun-2020-18_00_03.pdf
+Adding changes and commiting  to static sebsite
+[source dd48133] Updated covid19 post 06-25-2020
+ 4 files changed, 359 insertions(+), 182 deletions(-)
+ rewrite content/articles/Misc/Covid19.html (68%)
+ copy content/articles/Misc/Covid19.html => output/Covid-19_in_Sandiego.html (99%)
+ rewrite output/feeds/python.atom.xml (67%)
+Pushing Static Website
+To github.com:plasmon360/plasmon360.github.io.git
+   77c9876..dd48133  source -> source
+Make githubio website
+pelican /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/content -o /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output -s /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/publishconf.py -q
+Done: Processed 41 articles, 0 drafts, 0 pages, 0 hidden pages and 0 draft pages in 3.13 seconds.
+ghp-import -c juluribk.com -m "Generate Pelican site" -b master /home/plasmon360/Desktop/juluribk_website/plasmon360.github.io/output
+git push origin master
+To github.com:plasmon360/plasmon360.github.io.git
+   009e997..fbf320e  master -> master
+Fri Jun 26 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 17697 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15871 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
+Sun Jun 28 12:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] ERROR | Error while converting 'Get_Sandiego_County_Data.ipynb'
+Traceback (most recent call last):
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/notebook.py", line 32, in from_notebook_node
+    nb_copy, resources = super(NotebookExporter, self).from_notebook_node(nb, resources, **kw)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+    return self.preprocess(nb, resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 405, in preprocess
+    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 448, in preprocess_cell
+    raise CellExecutionError.from_cell_and_msg(cell, out)
+nbconvert.preprocessors.execute.CellExecutionError: An error occurred while executing the following cell:
+------------------
+url = 'https://www.sandiegocounty.gov/content/dam/sdc/hhsa/programs/phs/Epidemiology/COVID-19%20Summary%20of%20Cases%20by%20Zip%20Code.pdf'
+pdf= requests.get(url)
+with open(f'./Data/Total_Count/Temp/covid19_in_sd_{datetime.now().strftime("%d-%b-%Y-%H_%M_%S")}.pdf','wb') as f:
+    f.write(pdf.content)
+
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mgaierror[0m                                  Traceback (most recent call last)
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/connection.py[0m in [0;36m_new_conn[0;34m(self)[0m
+[1;32m    155[0m         [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 156[0;31m             conn = connection.create_connection(
+[0m[1;32m    157[0m                 [0;34m([0m[0mself[0m[0;34m.[0m[0m_dns_host[0m[0;34m,[0m [0mself[0m[0;34m.[0m[0mport[0m[0;34m)[0m[0;34m,[0m [0mself[0m[0;34m.[0m[0mtimeout[0m[0;34m,[0m [0;34m**[0m[0mextra_kw[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/util/connection.py[0m in [0;36mcreate_connection[0;34m(address, timeout, source_address, socket_options)[0m
+[1;32m     60[0m [0;34m[0m[0m
+[0;32m---> 61[0;31m     [0;32mfor[0m [0mres[0m [0;32min[0m [0msocket[0m[0;34m.[0m[0mgetaddrinfo[0m[0;34m([0m[0mhost[0m[0;34m,[0m [0mport[0m[0;34m,[0m [0mfamily[0m[0;34m,[0m [0msocket[0m[0;34m.[0m[0mSOCK_STREAM[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     62[0m         [0maf[0m[0;34m,[0m [0msocktype[0m[0;34m,[0m [0mproto[0m[0;34m,[0m [0mcanonname[0m[0;34m,[0m [0msa[0m [0;34m=[0m [0mres[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/lib/python3.8/socket.py[0m in [0;36mgetaddrinfo[0;34m(host, port, family, type, proto, flags)[0m
+[1;32m    917[0m     [0maddrlist[0m [0;34m=[0m [0;34m[[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 918[0;31m     [0;32mfor[0m [0mres[0m [0;32min[0m [0m_socket[0m[0;34m.[0m[0mgetaddrinfo[0m[0;34m([0m[0mhost[0m[0;34m,[0m [0mport[0m[0;34m,[0m [0mfamily[0m[0;34m,[0m [0mtype[0m[0;34m,[0m [0mproto[0m[0;34m,[0m [0mflags[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    919[0m         [0maf[0m[0;34m,[0m [0msocktype[0m[0;34m,[0m [0mproto[0m[0;34m,[0m [0mcanonname[0m[0;34m,[0m [0msa[0m [0;34m=[0m [0mres[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mgaierror[0m: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+[0;31mNewConnectionError[0m                        Traceback (most recent call last)
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/connectionpool.py[0m in [0;36murlopen[0;34m(self, method, url, body, headers, retries, redirect, assert_same_host, timeout, pool_timeout, release_conn, chunked, body_pos, **response_kw)[0m
+[1;32m    664[0m             [0;31m# Make the request on the httplib connection object.[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 665[0;31m             httplib_response = self._make_request(
+[0m[1;32m    666[0m                 [0mconn[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/connectionpool.py[0m in [0;36m_make_request[0;34m(self, conn, method, url, timeout, chunked, **httplib_request_kw)[0m
+[1;32m    375[0m         [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 376[0;31m             [0mself[0m[0;34m.[0m[0m_validate_conn[0m[0;34m([0m[0mconn[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    377[0m         [0;32mexcept[0m [0;34m([0m[0mSocketTimeout[0m[0;34m,[0m [0mBaseSSLError[0m[0;34m)[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/connectionpool.py[0m in [0;36m_validate_conn[0;34m(self, conn)[0m
+[1;32m    993[0m         [0;32mif[0m [0;32mnot[0m [0mgetattr[0m[0;34m([0m[0mconn[0m[0;34m,[0m [0;34m"sock"[0m[0;34m,[0m [0;32mNone[0m[0;34m)[0m[0;34m:[0m  [0;31m# AppEngine might not have  `.sock`[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 994[0;31m             [0mconn[0m[0;34m.[0m[0mconnect[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    995[0m [0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/connection.py[0m in [0;36mconnect[0;34m(self)[0m
+[1;32m    299[0m         [0;31m# Add certificate verification[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 300[0;31m         [0mconn[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0m_new_conn[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    301[0m         [0mhostname[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0mhost[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/connection.py[0m in [0;36m_new_conn[0;34m(self)[0m
+[1;32m    167[0m         [0;32mexcept[0m [0mSocketError[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 168[0;31m             raise NewConnectionError(
+[0m[1;32m    169[0m                 [0mself[0m[0;34m,[0m [0;34m"Failed to establish a new connection: %s"[0m [0;34m%[0m [0me[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mNewConnectionError[0m: <urllib3.connection.VerifiedHTTPSConnection object at 0x7fc4761b00a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+[0;31mMaxRetryError[0m                             Traceback (most recent call last)
+[0;32m~/.local/lib/python3.8/site-packages/requests/adapters.py[0m in [0;36msend[0;34m(self, request, stream, timeout, verify, cert, proxies)[0m
+[1;32m    438[0m             [0;32mif[0m [0;32mnot[0m [0mchunked[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 439[0;31m                 resp = conn.urlopen(
+[0m[1;32m    440[0m                     [0mmethod[0m[0;34m=[0m[0mrequest[0m[0;34m.[0m[0mmethod[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/connectionpool.py[0m in [0;36murlopen[0;34m(self, method, url, body, headers, retries, redirect, assert_same_host, timeout, pool_timeout, release_conn, chunked, body_pos, **response_kw)[0m
+[1;32m    718[0m [0;34m[0m[0m
+[0;32m--> 719[0;31m             retries = retries.increment(
+[0m[1;32m    720[0m                 [0mmethod[0m[0;34m,[0m [0murl[0m[0;34m,[0m [0merror[0m[0;34m=[0m[0me[0m[0;34m,[0m [0m_pool[0m[0;34m=[0m[0mself[0m[0;34m,[0m [0m_stacktrace[0m[0;34m=[0m[0msys[0m[0;34m.[0m[0mexc_info[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0;36m2[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/util/retry.py[0m in [0;36mincrement[0;34m(self, method, url, response, error, _pool, _stacktrace)[0m
+[1;32m    435[0m         [0;32mif[0m [0mnew_retry[0m[0;34m.[0m[0mis_exhausted[0m[0;34m([0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 436[0;31m             [0;32mraise[0m [0mMaxRetryError[0m[0;34m([0m[0m_pool[0m[0;34m,[0m [0murl[0m[0;34m,[0m [0merror[0m [0;32mor[0m [0mResponseError[0m[0;34m([0m[0mcause[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    437[0m [0;34m[0m[0m
+
+[0;31mMaxRetryError[0m: HTTPSConnectionPool(host='www.sandiegocounty.gov', port=443): Max retries exceeded with url: /content/dam/sdc/hhsa/programs/phs/Epidemiology/COVID-19%20Summary%20of%20Cases%20by%20Zip%20Code.pdf (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fc4761b00a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+[0;31mConnectionError[0m                           Traceback (most recent call last)
+[0;32m<ipython-input-2-09a3c45519ca>[0m in [0;36m<module>[0;34m[0m
+[1;32m      1[0m [0murl[0m [0;34m=[0m [0;34m'https://www.sandiegocounty.gov/content/dam/sdc/hhsa/programs/phs/Epidemiology/COVID-19%20Summary%20of%20Cases%20by%20Zip%20Code.pdf'[0m[0;34m[0m[0;34m[0m[0m
+[0;32m----> 2[0;31m [0mpdf[0m[0;34m=[0m [0mrequests[0m[0;34m.[0m[0mget[0m[0;34m([0m[0murl[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      3[0m [0;32mwith[0m [0mopen[0m[0;34m([0m[0;34mf'./Data/Total_Count/Temp/covid19_in_sd_{datetime.now().strftime("%d-%b-%Y-%H_%M_%S")}.pdf'[0m[0;34m,[0m[0;34m'wb'[0m[0;34m)[0m [0;32mas[0m [0mf[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      4[0m     [0mf[0m[0;34m.[0m[0mwrite[0m[0;34m([0m[0mpdf[0m[0;34m.[0m[0mcontent[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/requests/api.py[0m in [0;36mget[0;34m(url, params, **kwargs)[0m
+[1;32m     74[0m [0;34m[0m[0m
+[1;32m     75[0m     [0mkwargs[0m[0;34m.[0m[0msetdefault[0m[0;34m([0m[0;34m'allow_redirects'[0m[0;34m,[0m [0;32mTrue[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 76[0;31m     [0;32mreturn[0m [0mrequest[0m[0;34m([0m[0;34m'get'[0m[0;34m,[0m [0murl[0m[0;34m,[0m [0mparams[0m[0;34m=[0m[0mparams[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     77[0m [0;34m[0m[0m
+[1;32m     78[0m [0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/requests/api.py[0m in [0;36mrequest[0;34m(method, url, **kwargs)[0m
+[1;32m     59[0m     [0;31m# cases, and look like a memory leak in others.[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     60[0m     [0;32mwith[0m [0msessions[0m[0;34m.[0m[0mSession[0m[0;34m([0m[0;34m)[0m [0;32mas[0m [0msession[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 61[0;31m         [0;32mreturn[0m [0msession[0m[0;34m.[0m[0mrequest[0m[0;34m([0m[0mmethod[0m[0;34m=[0m[0mmethod[0m[0;34m,[0m [0murl[0m[0;34m=[0m[0murl[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     62[0m [0;34m[0m[0m
+[1;32m     63[0m [0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/requests/sessions.py[0m in [0;36mrequest[0;34m(self, method, url, params, data, headers, cookies, files, auth, timeout, allow_redirects, proxies, hooks, stream, verify, cert, json)[0m
+[1;32m    528[0m         }
+[1;32m    529[0m         [0msend_kwargs[0m[0;34m.[0m[0mupdate[0m[0;34m([0m[0msettings[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 530[0;31m         [0mresp[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0msend[0m[0;34m([0m[0mprep[0m[0;34m,[0m [0;34m**[0m[0msend_kwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    531[0m [0;34m[0m[0m
+[1;32m    532[0m         [0;32mreturn[0m [0mresp[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/requests/sessions.py[0m in [0;36msend[0;34m(self, request, **kwargs)[0m
+[1;32m    641[0m [0;34m[0m[0m
+[1;32m    642[0m         [0;31m# Send the request[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 643[0;31m         [0mr[0m [0;34m=[0m [0madapter[0m[0;34m.[0m[0msend[0m[0;34m([0m[0mrequest[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    644[0m [0;34m[0m[0m
+[1;32m    645[0m         [0;31m# Total elapsed time of the request (approximately)[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/requests/adapters.py[0m in [0;36msend[0;34m(self, request, stream, timeout, verify, cert, proxies)[0m
+[1;32m    514[0m                 [0;32mraise[0m [0mSSLError[0m[0;34m([0m[0me[0m[0;34m,[0m [0mrequest[0m[0;34m=[0m[0mrequest[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    515[0m [0;34m[0m[0m
+[0;32m--> 516[0;31m             [0;32mraise[0m [0mConnectionError[0m[0;34m([0m[0me[0m[0;34m,[0m [0mrequest[0m[0;34m=[0m[0mrequest[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    517[0m [0;34m[0m[0m
+[1;32m    518[0m         [0;32mexcept[0m [0mClosedPoolError[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mConnectionError[0m: HTTPSConnectionPool(host='www.sandiegocounty.gov', port=443): Max retries exceeded with url: /content/dam/sdc/hhsa/programs/phs/Epidemiology/COVID-19%20Summary%20of%20Cases%20by%20Zip%20Code.pdf (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fc4761b00a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+ConnectionError: HTTPSConnectionPool(host='www.sandiegocounty.gov', port=443): Max retries exceeded with url: /content/dam/sdc/hhsa/programs/phs/Epidemiology/COVID-19%20Summary%20of%20Cases%20by%20Zip%20Code.pdf (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fc4761b00a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] ERROR | Error while converting 'Get_deaths_by_demographics.ipynb'
+Traceback (most recent call last):
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/nbconvertapp.py", line 410, in export_single_notebook
+    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 179, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 197, in from_file
+    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/notebook.py", line 32, in from_notebook_node
+    nb_copy, resources = super(NotebookExporter, self).from_notebook_node(nb, resources, **kw)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 139, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 316, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+    return self.preprocess(nb, resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 405, in preprocess
+    nb, resources = super(ExecutePreprocessor, self).preprocess(nb, resources)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+    nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+  File "/home/plasmon360/.local/lib/python3.8/site-packages/nbconvert/preprocessors/execute.py", line 448, in preprocess_cell
+    raise CellExecutionError.from_cell_and_msg(cell, out)
+nbconvert.preprocessors.execute.CellExecutionError: An error occurred while executing the following cell:
+------------------
+url = 'https://www.sandiegocounty.gov/content/dam/sdc/hhsa/programs/phs/Epidemiology/COVID-19%20Deaths%20by%20Demographics.pdf'
+pdf= requests.get(url)
+with open(f'./Data/Deaths_by_demographics/Temp/deaths_by_demographics_{datetime.now().strftime("%d-%b-%Y-%H_%M_%S")}.pdf','wb') as f:
+    f.write(pdf.content)
+
+
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mgaierror[0m                                  Traceback (most recent call last)
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/connection.py[0m in [0;36m_new_conn[0;34m(self)[0m
+[1;32m    155[0m         [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 156[0;31m             conn = connection.create_connection(
+[0m[1;32m    157[0m                 [0;34m([0m[0mself[0m[0;34m.[0m[0m_dns_host[0m[0;34m,[0m [0mself[0m[0;34m.[0m[0mport[0m[0;34m)[0m[0;34m,[0m [0mself[0m[0;34m.[0m[0mtimeout[0m[0;34m,[0m [0;34m**[0m[0mextra_kw[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/util/connection.py[0m in [0;36mcreate_connection[0;34m(address, timeout, source_address, socket_options)[0m
+[1;32m     60[0m [0;34m[0m[0m
+[0;32m---> 61[0;31m     [0;32mfor[0m [0mres[0m [0;32min[0m [0msocket[0m[0;34m.[0m[0mgetaddrinfo[0m[0;34m([0m[0mhost[0m[0;34m,[0m [0mport[0m[0;34m,[0m [0mfamily[0m[0;34m,[0m [0msocket[0m[0;34m.[0m[0mSOCK_STREAM[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     62[0m         [0maf[0m[0;34m,[0m [0msocktype[0m[0;34m,[0m [0mproto[0m[0;34m,[0m [0mcanonname[0m[0;34m,[0m [0msa[0m [0;34m=[0m [0mres[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/lib/python3.8/socket.py[0m in [0;36mgetaddrinfo[0;34m(host, port, family, type, proto, flags)[0m
+[1;32m    917[0m     [0maddrlist[0m [0;34m=[0m [0;34m[[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 918[0;31m     [0;32mfor[0m [0mres[0m [0;32min[0m [0m_socket[0m[0;34m.[0m[0mgetaddrinfo[0m[0;34m([0m[0mhost[0m[0;34m,[0m [0mport[0m[0;34m,[0m [0mfamily[0m[0;34m,[0m [0mtype[0m[0;34m,[0m [0mproto[0m[0;34m,[0m [0mflags[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    919[0m         [0maf[0m[0;34m,[0m [0msocktype[0m[0;34m,[0m [0mproto[0m[0;34m,[0m [0mcanonname[0m[0;34m,[0m [0msa[0m [0;34m=[0m [0mres[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mgaierror[0m: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+[0;31mNewConnectionError[0m                        Traceback (most recent call last)
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/connectionpool.py[0m in [0;36murlopen[0;34m(self, method, url, body, headers, retries, redirect, assert_same_host, timeout, pool_timeout, release_conn, chunked, body_pos, **response_kw)[0m
+[1;32m    664[0m             [0;31m# Make the request on the httplib connection object.[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 665[0;31m             httplib_response = self._make_request(
+[0m[1;32m    666[0m                 [0mconn[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/connectionpool.py[0m in [0;36m_make_request[0;34m(self, conn, method, url, timeout, chunked, **httplib_request_kw)[0m
+[1;32m    375[0m         [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 376[0;31m             [0mself[0m[0;34m.[0m[0m_validate_conn[0m[0;34m([0m[0mconn[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    377[0m         [0;32mexcept[0m [0;34m([0m[0mSocketTimeout[0m[0;34m,[0m [0mBaseSSLError[0m[0;34m)[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/connectionpool.py[0m in [0;36m_validate_conn[0;34m(self, conn)[0m
+[1;32m    993[0m         [0;32mif[0m [0;32mnot[0m [0mgetattr[0m[0;34m([0m[0mconn[0m[0;34m,[0m [0;34m"sock"[0m[0;34m,[0m [0;32mNone[0m[0;34m)[0m[0;34m:[0m  [0;31m# AppEngine might not have  `.sock`[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 994[0;31m             [0mconn[0m[0;34m.[0m[0mconnect[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    995[0m [0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/connection.py[0m in [0;36mconnect[0;34m(self)[0m
+[1;32m    299[0m         [0;31m# Add certificate verification[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 300[0;31m         [0mconn[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0m_new_conn[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    301[0m         [0mhostname[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0mhost[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/connection.py[0m in [0;36m_new_conn[0;34m(self)[0m
+[1;32m    167[0m         [0;32mexcept[0m [0mSocketError[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 168[0;31m             raise NewConnectionError(
+[0m[1;32m    169[0m                 [0mself[0m[0;34m,[0m [0;34m"Failed to establish a new connection: %s"[0m [0;34m%[0m [0me[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mNewConnectionError[0m: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f84117402e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+[0;31mMaxRetryError[0m                             Traceback (most recent call last)
+[0;32m~/.local/lib/python3.8/site-packages/requests/adapters.py[0m in [0;36msend[0;34m(self, request, stream, timeout, verify, cert, proxies)[0m
+[1;32m    438[0m             [0;32mif[0m [0;32mnot[0m [0mchunked[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 439[0;31m                 resp = conn.urlopen(
+[0m[1;32m    440[0m                     [0mmethod[0m[0;34m=[0m[0mrequest[0m[0;34m.[0m[0mmethod[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/connectionpool.py[0m in [0;36murlopen[0;34m(self, method, url, body, headers, retries, redirect, assert_same_host, timeout, pool_timeout, release_conn, chunked, body_pos, **response_kw)[0m
+[1;32m    718[0m [0;34m[0m[0m
+[0;32m--> 719[0;31m             retries = retries.increment(
+[0m[1;32m    720[0m                 [0mmethod[0m[0;34m,[0m [0murl[0m[0;34m,[0m [0merror[0m[0;34m=[0m[0me[0m[0;34m,[0m [0m_pool[0m[0;34m=[0m[0mself[0m[0;34m,[0m [0m_stacktrace[0m[0;34m=[0m[0msys[0m[0;34m.[0m[0mexc_info[0m[0;34m([0m[0;34m)[0m[0;34m[[0m[0;36m2[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/urllib3/util/retry.py[0m in [0;36mincrement[0;34m(self, method, url, response, error, _pool, _stacktrace)[0m
+[1;32m    435[0m         [0;32mif[0m [0mnew_retry[0m[0;34m.[0m[0mis_exhausted[0m[0;34m([0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 436[0;31m             [0;32mraise[0m [0mMaxRetryError[0m[0;34m([0m[0m_pool[0m[0;34m,[0m [0murl[0m[0;34m,[0m [0merror[0m [0;32mor[0m [0mResponseError[0m[0;34m([0m[0mcause[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    437[0m [0;34m[0m[0m
+
+[0;31mMaxRetryError[0m: HTTPSConnectionPool(host='www.sandiegocounty.gov', port=443): Max retries exceeded with url: /content/dam/sdc/hhsa/programs/phs/Epidemiology/COVID-19%20Deaths%20by%20Demographics.pdf (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f84117402e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+[0;31mConnectionError[0m                           Traceback (most recent call last)
+[0;32m<ipython-input-2-ba56c3913ed5>[0m in [0;36m<module>[0;34m[0m
+[1;32m      1[0m [0murl[0m [0;34m=[0m [0;34m'https://www.sandiegocounty.gov/content/dam/sdc/hhsa/programs/phs/Epidemiology/COVID-19%20Deaths%20by%20Demographics.pdf'[0m[0;34m[0m[0;34m[0m[0m
+[0;32m----> 2[0;31m [0mpdf[0m[0;34m=[0m [0mrequests[0m[0;34m.[0m[0mget[0m[0;34m([0m[0murl[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      3[0m [0;32mwith[0m [0mopen[0m[0;34m([0m[0;34mf'./Data/Deaths_by_demographics/Temp/deaths_by_demographics_{datetime.now().strftime("%d-%b-%Y-%H_%M_%S")}.pdf'[0m[0;34m,[0m[0;34m'wb'[0m[0;34m)[0m [0;32mas[0m [0mf[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      4[0m     [0mf[0m[0;34m.[0m[0mwrite[0m[0;34m([0m[0mpdf[0m[0;34m.[0m[0mcontent[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      5[0m [0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/requests/api.py[0m in [0;36mget[0;34m(url, params, **kwargs)[0m
+[1;32m     74[0m [0;34m[0m[0m
+[1;32m     75[0m     [0mkwargs[0m[0;34m.[0m[0msetdefault[0m[0;34m([0m[0;34m'allow_redirects'[0m[0;34m,[0m [0;32mTrue[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 76[0;31m     [0;32mreturn[0m [0mrequest[0m[0;34m([0m[0;34m'get'[0m[0;34m,[0m [0murl[0m[0;34m,[0m [0mparams[0m[0;34m=[0m[0mparams[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     77[0m [0;34m[0m[0m
+[1;32m     78[0m [0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/requests/api.py[0m in [0;36mrequest[0;34m(method, url, **kwargs)[0m
+[1;32m     59[0m     [0;31m# cases, and look like a memory leak in others.[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     60[0m     [0;32mwith[0m [0msessions[0m[0;34m.[0m[0mSession[0m[0;34m([0m[0;34m)[0m [0;32mas[0m [0msession[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 61[0;31m         [0;32mreturn[0m [0msession[0m[0;34m.[0m[0mrequest[0m[0;34m([0m[0mmethod[0m[0;34m=[0m[0mmethod[0m[0;34m,[0m [0murl[0m[0;34m=[0m[0murl[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     62[0m [0;34m[0m[0m
+[1;32m     63[0m [0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/requests/sessions.py[0m in [0;36mrequest[0;34m(self, method, url, params, data, headers, cookies, files, auth, timeout, allow_redirects, proxies, hooks, stream, verify, cert, json)[0m
+[1;32m    528[0m         }
+[1;32m    529[0m         [0msend_kwargs[0m[0;34m.[0m[0mupdate[0m[0;34m([0m[0msettings[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 530[0;31m         [0mresp[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0msend[0m[0;34m([0m[0mprep[0m[0;34m,[0m [0;34m**[0m[0msend_kwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    531[0m [0;34m[0m[0m
+[1;32m    532[0m         [0;32mreturn[0m [0mresp[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/requests/sessions.py[0m in [0;36msend[0;34m(self, request, **kwargs)[0m
+[1;32m    641[0m [0;34m[0m[0m
+[1;32m    642[0m         [0;31m# Send the request[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 643[0;31m         [0mr[0m [0;34m=[0m [0madapter[0m[0;34m.[0m[0msend[0m[0;34m([0m[0mrequest[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    644[0m [0;34m[0m[0m
+[1;32m    645[0m         [0;31m# Total elapsed time of the request (approximately)[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/.local/lib/python3.8/site-packages/requests/adapters.py[0m in [0;36msend[0;34m(self, request, stream, timeout, verify, cert, proxies)[0m
+[1;32m    514[0m                 [0;32mraise[0m [0mSSLError[0m[0;34m([0m[0me[0m[0;34m,[0m [0mrequest[0m[0;34m=[0m[0mrequest[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    515[0m [0;34m[0m[0m
+[0;32m--> 516[0;31m             [0;32mraise[0m [0mConnectionError[0m[0;34m([0m[0me[0m[0;34m,[0m [0mrequest[0m[0;34m=[0m[0mrequest[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    517[0m [0;34m[0m[0m
+[1;32m    518[0m         [0;32mexcept[0m [0mClosedPoolError[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mConnectionError[0m: HTTPSConnectionPool(host='www.sandiegocounty.gov', port=443): Max retries exceeded with url: /content/dam/sdc/hhsa/programs/phs/Epidemiology/COVID-19%20Deaths%20by%20Demographics.pdf (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f84117402e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+ConnectionError: HTTPSConnectionPool(host='www.sandiegocounty.gov', port=443): Max retries exceeded with url: /content/dam/sdc/hhsa/programs/phs/Epidemiology/COVID-19%20Deaths%20by%20Demographics.pdf (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f84117402e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+COUNTY DID NOT UPDATE THEIR PDF
