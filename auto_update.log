@@ -2654,3 +2654,11 @@ During handling of the above exception, another exception occurred:
 ConnectionError: HTTPSConnectionPool(host='www.sandiegocounty.gov', port=443): Max retries exceeded with url: /content/dam/sdc/hhsa/programs/phs/Epidemiology/COVID-19%20Deaths%20by%20Demographics.pdf (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f84117402e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
 
 COUNTY DID NOT UPDATE THEIR PDF
+Sun Jun 28 15:00:01 PDT 2020 : Getting data from San diego County
+[NbConvertApp] Converting notebook Get_Sandiego_County_Data.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 62112 bytes to Get_Sandiego_County_Data.ipynb
+[NbConvertApp] Converting notebook Get_deaths_by_demographics.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 15906 bytes to Get_deaths_by_demographics.ipynb
+COUNTY DID NOT UPDATE THEIR PDF
